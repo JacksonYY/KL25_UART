@@ -51,6 +51,7 @@ void isr_uart2_re(void)
     DISABLE_INTERRUPTS;
     
     ch = uart_re1(UART_2, &flag);
+    ch = ch + 1;
     if (0 == flag)
     {
         uart_send1(UART_2, ch);

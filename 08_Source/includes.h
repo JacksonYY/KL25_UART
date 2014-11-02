@@ -16,7 +16,7 @@
 
 //定义全局变量
 //定义小灯闪烁频率
-#define RUN_COUNTER_MAX   1500000ul 
+#define RUN_COUNTER_MAX   1500000ul
 
 //定义使用的调试号
 #define UART_TEST UART_1
